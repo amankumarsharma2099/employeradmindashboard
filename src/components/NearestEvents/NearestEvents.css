@@ -1,0 +1,63 @@
+.Nearest-Events {
+    width: 339px;
+    height: 470px;
+    position: absolute;
+    top: 227px;
+    left: 1061px;
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .event {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .event-bar {
+    width: 4px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 2px;
+  }
+  
+  .event-details {
+    flex: 1;
+  }
+  
+  .event-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .event-time {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .event-extra {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .event-extra svg {
+    margin-right: 4px;
+  }
+  

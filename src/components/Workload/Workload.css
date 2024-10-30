@@ -1,0 +1,111 @@
+.workloads {
+    position: absolute;
+    width: 781px;
+    height: 470px;
+    top: 227px;
+    left: 250px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    
+}
+
+.wrk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrk h3 {
+    font-size: 30px; /* Slightly larger for prominence */
+    color: #333333; /* Dark color for the heading */
+    font-weight: bold;
+    margin: 0;
+}
+
+.wrk button {
+    background-color: transparent;
+    border: none;
+    color: #007bff; /* Blue color for link appearance */
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline; /* Mimics hyperlink styling */
+    padding: 0;
+}
+
+.user-display-list {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.user-container {
+    width: 175px;
+    height: 180px;
+    border-radius: 16px;
+    background-color: #f2f7fb;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.user-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #007bff;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.user-designation {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.user-rank {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+
+.user-rank.middle {
+    background-color: #ffc107;
+}
+
+.user-rank.junior {
+    background-color: #17a2b8;
+}
+
+.user-rank.senior {
+    background-color: #28a745;
+}

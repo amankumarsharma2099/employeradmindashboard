@@ -1,0 +1,87 @@
+.projects {
+    position: absolute;
+    top: 743px;
+    left: 250px;
+    width: 800px;
+    height: 538px;
+    padding: 10px;
+  }
+  
+  .project-card {
+    display: flex;
+    height: 148px;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .projectlogo img{
+    width: 48px;
+    height: 48px;
+  }
+  .project-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .project-meta {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .project-date {
+    margin-left: 5px;
+  }
+  
+  .project-difficulty {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .project-difficulty.medium {
+    color: #ffa500; /* Medium level color */
+  }
+  
+  .project-difficulty.low {
+    color: #008000; /* Low level color */
+  }
+  
+  .project-data {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tasks, .assignees {
+    margin-right: 20px;
+  }
+  
+  .assignees .assignee-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .assignee-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .extra-count {
+    font-size: 14px;
+    color: #666;
+  }
+  .line{
+    width: 3px;
+    height: 148px;
+    background-color:#E4E6E8;
+  }
+  

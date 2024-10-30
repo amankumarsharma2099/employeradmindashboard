@@ -1,0 +1,101 @@
+.dashboard-container {
+  position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 1175px;
+    height: 200px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #2d3748;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .search-bar {
+    width: 412px;
+    height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-icon {
+    color: #a0aec0;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    color: #a0aec0;
+  }
+  
+  .profile-section {
+    width: 480px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .notification-icon{
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+  .profile-info img{
+    background-color: #ffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-name {
+    margin-left: 8px;
+    color: #4a5568;
+    background-color: #ffff;
+  }
+  
+  .welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .welcome-section h3 {
+    color: #718096;
+  }
+  
+  .welcome-section h1 {
+    
+    color: #2d3748;
+    font-size: 24px;
+  }
+  
+  .date-section {
+    width: 280px;
+    height: 48px;
+    background-color: #edf2f7;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #4a5568;
+  }
+  

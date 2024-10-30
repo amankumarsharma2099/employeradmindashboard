@@ -1,0 +1,79 @@
+.sidebar{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px; /* Curved corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    background-color: #ffff;
+    color: black;
+    width: 200px;
+    height: 1265px;
+    font-size: 10px;
+    overflow-y: scroll;
+    scrollbar-width: 4px; 
+    scrollbar-color: #007bff #f2f7fb; /* First color is the thumb, second is the track */
+}
+#sidebar-img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu{
+    background-color: #ffff;
+    width: 184px;
+    height: 358px;
+    margin-left:10px;
+    margin-top:20px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    margin-bottom: 5px;
+}
+.menu ul li{
+    width: 172px;
+    height: 44px;
+    padding-left: 8px;
+    padding-top: 9px;
+    border-radius: 10px;
+    background-color: #ffff;
+    font-size: 16px;
+}
+.menu ul li svg {
+    margin-right: 10px; 
+}
+
+.menu ul li:hover {
+    background-color: #f3f8fc; /* Change this color as needed */
+    color: #007bff;
+}
+.supportdiv img{
+    position: absolute;
+    width: 168px;
+    height: 214px;
+    top: 933px;
+    left: 16px;
+}
+.logoutbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    top: 1150px;
+    left: 54px;
+    font-size: 16px;
+}
+.logoutbutton h3{
+    font-size: 16px;
+    font-weight: 600;
+    color:#7D8592;
+    ;
+
+}
